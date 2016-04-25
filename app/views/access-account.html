@@ -1,0 +1,53 @@
+{% extends "layout_unbranded.html" %}
+
+{% block page_title %}
+  #sprintweek prototype
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-large">
+        Access account
+      </h1>
+
+      <p>To access your account please enter your information below:</p>
+
+      <form action="home" method="" class="form">
+
+        <div class="form-group">
+            <label class="form-label-bold" for="email">Staff number</label>
+            <input type="text" class="form-control form-control-2-3" id="email">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label-bold" for="password">Password</label>
+          <input type="password" class="form-control form-control-2-3" id="password">
+        </div>
+
+        <p>
+          <a href="forgot-password">
+          Forgot password?
+          </a>
+        </p>
+
+        <div class="form-group">
+          <input type="submit" class="button" value="Sign in">
+        </div>
+
+        <p>
+          <a href="register-account">
+          Register for an account
+          </a>
+        </p>
+
+      </form>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

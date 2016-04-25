@@ -1,0 +1,46 @@
+{% extends "layout_unbranded.html" %}
+
+{% block page_title %}
+  #sprintweek prototype
+{% endblock %}
+
+{% block content %}
+
+{% include "includes/navigation_journal.html" %}
+
+<main id="content" role="main">
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-large">
+        Journal
+      </h1>
+
+      <table>
+        <tbody>
+          <tr class="complete" style="border-top:1px solid #bfc1c3;">
+            <td class="bold-xsmall">25 April</td>
+            <td>Completed learning and development <a style="float:right;" href="todo-content">undo</a></td>
+          </tr>
+          <tr>
+            <td class="bold-xsmall">21 April</td>
+            <td>Completed learning and development plan</td>
+          </tr>
+          <tr>
+          <tr>
+            <td class="bold-xsmall">18 April</td>
+            <td>Completed learning needs analysis</td>
+          </tr>
+          <tr>
+            <td class="bold-xsmall">28 March</td>
+            <td>Attended leadership event</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

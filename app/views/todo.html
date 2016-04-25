@@ -1,0 +1,74 @@
+{% extends "layout_unbranded.html" %}
+
+{% block page_title %}
+  #sprintweek prototype
+{% endblock %}
+
+{% block content %}
+
+{% include "includes/navigation_todo.html" %}
+
+<main id="content" role="main">
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-large">
+
+      </h1>
+
+      <div class="todo new">
+        <a href="todo-content">
+          <h2 class="bold-medium">
+            Undertake learning and development
+          </h2>
+          <p class="font-xsmall">
+            to be completed by <span class="bold-xsmall">25 May</span>
+          </p>
+        </a>
+      </div>
+
+      <!--
+
+      <div class="todo in-progress">
+        <a href="todo-content">
+          <h2 class="bold-medium">
+            In-progress to-do
+          </h2>
+          <p class="font-xsmall">
+            to be completed by <span class="bold-xsmall">29 April</span>
+          </p>
+        </a>
+      </div>
+
+      <div class="todo in-progress">
+        <a href="todo-content">
+          <h2 class="bold-medium">
+            In-progress to-do
+          </h2>
+          <p class="font-xsmall">
+            to be completed by <span class="bold-xsmall">29 April</span>
+          </p>
+        </a>
+      </div>
+
+      <div class="todo overdue">
+        <a href="todo-content">
+          <h2 class="bold-medium">
+            Overdue to-do
+          </h2>
+          <p class="font-xsmall">
+            to be completed by <span class="bold-xsmall">22 April</span>
+          </p>
+        </a>
+      </div>
+
+    -->
+
+      <p>Completed items appear in your <a href="journal">journal</a>.</p>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
